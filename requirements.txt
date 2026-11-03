@@ -1,0 +1,18 @@
+# NER Bake-off dependencies
+# Tested on Python 3.14
+
+# Specialist NER models
+gliner>=0.2.0
+spacy>=3.8.0
+
+# spaCy models (install separately):
+#   python -m spacy download en_core_web_trf   (transformer-based, recommended)
+#   python -m spacy download en_core_web_sm    (small, fast fallback)
+
+# System monitoring
+psutil>=5.9.0
+
+# GLiNER pulls these in automatically, listed for pinning:
+torch>=2.0.0
+transformers>=4.51.3
+
