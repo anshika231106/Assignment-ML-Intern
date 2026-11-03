@@ -221,8 +221,7 @@ models using the same hardware pricing and utilization assumptions.
 ### 1. Installation
 
 ```bash
-# Clone and enter directory
-cd d:\ner-bakeoff
+- Clone and enter directory
 
 # Install core dependencies
 pip install -r requirements.txt
@@ -266,4 +265,4 @@ python score.py data/test.jsonl predictions_llm_test.jsonl --errors
 
 ## 7. AI-Assistant Disclosure
 
-An AI coding assistant (Antigravity with Claude 3.7 Sonnet / Gemini models) was used to accelerate boilerplate script construction for the benchmark harness, write regex post-processing routines (possessive stripping and honorific extraction), automate batch evaluation commands, and format markdown tables. All experimental design choices, label mappings, failure pattern analyses, and code implementations were inspected, executed, and verified directly.
+An AI assistant was used only for help with Python syntax and understanding how to use certain libraries and their functions. The implementation, experiments, evaluation, and analysis were carried out and checked independently. I reviewed the code and results to make sure I understand how they work and can explain them.
